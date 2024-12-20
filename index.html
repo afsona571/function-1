@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <header class="flex items-center justify-between p-4 bg-black shadow-md">
+      <!-- Logo -->
+      <div class="text-xl font-bold">LOGO</div>
+
+      <!-- Navigation Links -->
+      <nav class="hidden md:flex space-x-6">
+        <a href="#" class="text-red-500 hover:text-white">Home</a>
+        <a href="#" class="text-gray-300 hover:text-white">About us</a>
+        <a href="#" class="text-gray-300 hover:text-white">Portfolio</a>
+      </nav>
+
+      <!-- Mode Toggle Buttons -->
+      <div class="flex space-x-2">
+        <button
+          class="px-4 py-2 bg-gray-300 text-black font-semibold rounded hover:bg-gray-400"
+        >
+          LightMode
+        </button>
+        <button
+          class="px-4 py-2 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600"
+        >
+          DarkMode
+        </button>
+      </div>
+    </header>
+    <main class="flex items-center justify-between p-10">
+      <!-- Left Text Content -->
+      <div>
+        <h1 class="text-4xl font-bold mb-4">
+          Work that we produce for our clients
+        </h1>
+        <p class="text-gray-600 mb-6">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard.
+        </p>
+        <button
+          class="px-6 py-3 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600"
+        >
+          Get more details
+        </button>
+      </div>
+
+      <!-- Right Image Section -->
+      <div class="relative">
+        <img src="Rectangle 24.png" alt="Example" class="rounded shadow-lg" />
+        <!-- Sample annotation circles -->
+        <div
+          class="absolute top-10 left-10 bg-purple-500 text-white rounded-full w-10 h-10 flex items-center justify-center"
+        >
+          a
+        </div>
+        <div
+          class="absolute bottom-10 right-10 bg-green-500 text-white rounded-full w-10 h-10 flex items-center justify-center"
+        >
+          M
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

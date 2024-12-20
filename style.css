@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d3c4af; /* Beige background color */
+  }
+  
+  .work-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-content {
+    max-width: 50%;
+  }
+  
+  .text-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #000; /* Black text color */
+  }
+  
+  .text-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    color: #555; /* Dark gray text */
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #ff9900; /* Orange button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #cc7a00; /* Darker orange on hover */
+  }
+  
+  .image-content img {
+    max-width: 739px; /* Width as per the provided image */
+    height: auto;
+    border-radius: 10px; /* Slight rounding for aesthetics */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
